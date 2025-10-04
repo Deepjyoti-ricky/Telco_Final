@@ -1,7 +1,8 @@
 # =====================================================
 # Telco Network Optimization Suite - Python Dependencies
 # =====================================================
-# Compatible versions for Snowflake Python 3.11 runtime
+# IMPORTANT: Use Python 3.10 runtime (ONLY version supporting all packages)
+# Python 3.11 is NOT supported by Snowflake Anaconda repository
 
 # Core Streamlit
 streamlit
@@ -21,12 +22,13 @@ altair
 matplotlib
 branca
 
-# Geospatial
+# Geospatial (only available in Python 3.8, 3.9, 3.10)
 h3
 
 # Statistical analysis
 scipy
 
-# Utilities (python-dateutil removed - pandas includes it as dependency)
+# Utilities
+python-dateutil
 pytz
 
