@@ -1,7 +1,7 @@
 # =====================================================
 # Telco Network Optimization Suite - Python Dependencies
 # =====================================================
-# Compatible versions for Snowflake Python 3.10 runtime
+# Compatible versions for Snowflake Python 3.11 runtime
 
 # Core Streamlit
 streamlit
@@ -12,7 +12,7 @@ snowflake-connector-python
 
 # Data processing
 pandas
-numpy<2.0.0
+numpy
 
 # Visualization
 plotly
@@ -27,7 +27,6 @@ h3
 # Statistical analysis
 scipy
 
-# Utilities
-python-dateutil
+# Utilities (python-dateutil removed - pandas includes it as dependency)
 pytz
 
